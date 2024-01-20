@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Customer Satisfactory Questionnaire</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap')
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h1>Customer Satisfactory Questionnaire</h1>
+    </div>
+    <div class="field">
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name"><br><br>
+        <label for="date">Date:</label>
+        <input type="date" id="date"><br><br>
+        <label>How satisfied are you with our service?</label><br>
+        <input type="radio" id="rating" name="score" value="01">
+        <label for="rating">Satisfied</label>
+        <input type="radio" id="r0" name="score" value="00">
+        <label for="r0">Neutral</label>
+        <input type="radio" id="r1" name="score" value="min1">
+        <label for="r1">Unsatisfied</label><br><br>
+        <label for="comment">Any additional feedback regarding our service?</label><br>
+        <textarea id="comment" name="comment" rows="4" cols="35"></textarea> 
+    </form>
+    </div>
+    <button>Submit</button>
+</body>
+</html>
